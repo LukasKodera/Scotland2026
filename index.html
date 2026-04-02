@@ -128,6 +128,44 @@
     }
     .nav a:hover   { color: var(--white); }
     .nav a.active  { color: var(--white); border-bottom-color: #81c784; }
+
+    /* ── Route overview ───────────────────────────── */
+    .route-strip {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px 0;
+      background: var(--white);
+      border-radius: 10px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow);
+    }
+    .route-node {
+      text-align: center;
+      padding: 0 8px;
+    }
+    .route-node-label {
+      background: var(--green-dark);
+      color: var(--white);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .route-node-label.endpoint { background: #1b3a1f; }
+    .route-node-meta {
+      font-size: 10px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .route-arrow {
+      color: var(--green-accent);
+      font-size: 20px;
+      padding: 0 2px;
+      line-height: 1;
+      margin-bottom: 14px;
+    }
   </style>
 </head>
 <body>
@@ -155,7 +193,41 @@
   </nav>
 
   <div class="container">
-    <!-- sections go here in later tasks -->
+    <!-- Route Overview -->
+    <h2 class="section-heading" id="route">Route</h2>
+    <div class="route-strip">
+      <div class="route-node">
+        <div class="route-node-label endpoint">Edinburgh ✈</div>
+        <div class="route-node-meta">Day 1</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-node">
+        <div class="route-node-label">Glencoe</div>
+        <div class="route-node-meta">Day 1–2 · 2.5h</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-node">
+        <div class="route-node-label">Isle of Skye</div>
+        <div class="route-node-meta">Day 3–5 · 2h</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-node">
+        <div class="route-node-label">Torridon</div>
+        <div class="route-node-meta">Day 6–7 · 3h</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-node">
+        <div class="route-node-label">NC500</div>
+        <div class="route-node-meta">Day 8–9 · 2h</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-node">
+        <div class="route-node-label endpoint">Inverness ✈</div>
+        <div class="route-node-meta">Day 10</div>
+      </div>
+    </div>
+
+    <!-- Itinerary, Stays, Tips added in later tasks -->
   </div>
 
   <script>
