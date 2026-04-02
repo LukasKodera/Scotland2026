@@ -266,6 +266,63 @@
     .airbnb-link { color: var(--green-mid); text-decoration: none; }
     .airbnb-link:hover { text-decoration: underline; }
     .tbd { color: var(--text-muted); font-style: italic; }
+
+    /* ── Accommodation ────────────────────────────── */
+    .stays-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .stay-row {
+      background: var(--white);
+      border-radius: 6px;
+      padding: 10px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: var(--shadow);
+      font-size: 13px;
+      gap: 16px;
+    }
+    .stay-row-label { font-weight: 700; color: var(--green-dark); }
+    .stay-row-location { color: var(--text-mid); }
+
+    /* ── Tips ─────────────────────────────────────── */
+    .tips-list {
+      background: var(--white);
+      border-radius: 10px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--text-mid);
+    }
+    .tips-list strong { color: var(--green-dark); }
+
+    /* ── Back to top ──────────────────────────────── */
+    .back-to-top {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      background: var(--green-dark);
+      color: var(--white);
+      border: none;
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      line-height: 1;
+    }
+    .back-to-top.visible { display: flex; }
+    .back-to-top:hover { background: var(--green-mid); }
   </style>
 </head>
 <body>
@@ -583,8 +640,46 @@
       </div>
     </div>
 
-    <!-- Stays, Tips added in later tasks -->
+    <!-- Accommodation -->
+    <h2 class="section-heading" id="stays">Stays</h2>
+    <div class="stays-list">
+      <div class="stay-row">
+        <div><span class="stay-row-label">Night 1–2</span> &nbsp;<span class="stay-row-location">Glencoe area</span></div>
+        <span class="tbd">AirBnB link TBD</span>
+      </div>
+      <div class="stay-row">
+        <div><span class="stay-row-label">Night 3–5</span> &nbsp;<span class="stay-row-location">Portree, Isle of Skye</span></div>
+        <span class="tbd">AirBnB link TBD</span>
+      </div>
+      <div class="stay-row">
+        <div><span class="stay-row-label">Night 6–7</span> &nbsp;<span class="stay-row-location">Torridon area</span></div>
+        <span class="tbd">AirBnB link TBD</span>
+      </div>
+      <div class="stay-row">
+        <div><span class="stay-row-label">Night 8</span> &nbsp;<span class="stay-row-location">Assynt area</span></div>
+        <span class="tbd">AirBnB link TBD</span>
+      </div>
+      <div class="stay-row">
+        <div><span class="stay-row-label">Night 9</span> &nbsp;<span class="stay-row-location">Durness or Thurso</span></div>
+        <span class="tbd">AirBnB link TBD</span>
+      </div>
+    </div>
+
+    <!-- Tips -->
+    <h2 class="section-heading" id="tips">Tips &amp; Links</h2>
+    <div class="tips-list">
+      <div>🚗 <strong>Car rental:</strong> Arnold Clark — one-way Edinburgh (EDI) → Inverness (INV). Book early for June.</div>
+      <div>📷 <strong>Golden hour:</strong> June sunsets ~10pm, sunrises ~4:30am — pack a headtorch for early starts.</div>
+      <div>🌦 <strong>Weather:</strong> Always carry full waterproofs. June averages 12–16°C. Wind is the real enemy.</div>
+      <div>🛣 <strong>NC500 accommodation:</strong> Book at least 3–4 months ahead — fills up fast in June.</div>
+      <div>🚧 <strong>Single-track roads:</strong> Most Highland roads are single-track with passing places. Add 30–50% to Google Maps estimates.</div>
+      <div>🦟 <strong>Midges:</strong> Peak midge season — bring repellent (Smidge brand is best). Worst at dawn/dusk near water.</div>
+      <div>⛽ <strong>Petrol:</strong> Fill up whenever you see a station in the far north — gaps of 50+ km are common.</div>
+    </div>
   </div>
+
+  <!-- back to top button -->
+  <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
 
   <script>
     // JS added in Task 6
