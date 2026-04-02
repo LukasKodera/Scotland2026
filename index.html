@@ -95,6 +95,39 @@
       padding-bottom: 8px;
       border-bottom: 2px solid var(--green-accent);
     }
+
+    /* ── Sticky nav ───────────────────────────────── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--green-dark);
+      display: flex;
+      align-items: center;
+      gap: 0;
+      padding: 0 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    .nav-brand {
+      color: var(--green-accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 14px 20px 14px 0;
+      margin-right: 8px;
+      border-right: 1px solid rgba(255,255,255,0.15);
+    }
+    .nav a {
+      color: var(--green-accent);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 14px 16px;
+      transition: color 0.15s;
+      border-bottom: 2px solid transparent;
+    }
+    .nav a:hover   { color: var(--white); }
+    .nav a.active  { color: var(--white); border-bottom-color: #81c784; }
   </style>
 </head>
 <body>
@@ -111,6 +144,15 @@
       <div class="stat-card"><div class="stat-value">June</div><div class="stat-label">2026</div></div>
     </div>
   </div>
+
+  <!-- Sticky nav -->
+  <nav class="nav">
+    <div class="nav-brand">Scotland '26</div>
+    <a href="#route">Route</a>
+    <a href="#itinerary">Itinerary</a>
+    <a href="#stays">Stays</a>
+    <a href="#tips">Tips</a>
+  </nav>
 
   <div class="container">
     <!-- sections go here in later tasks -->
