@@ -694,7 +694,7 @@
 
     // Active nav highlight via IntersectionObserver
     const navLinks = document.querySelectorAll('.nav a');
-    const sections = document.querySelectorAll('[id]');
+    const sections = document.querySelectorAll('#route, #itinerary, #stays, #tips');
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {

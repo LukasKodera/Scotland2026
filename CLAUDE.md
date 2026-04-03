@@ -18,6 +18,15 @@ No frameworks, no build tools — everything lives in one `index.html` file.
 - The page must work fully offline (no fetch calls, no external resources)
 - Do not add frameworks (React, Vue, etc.)
 
+## Token Optimization Rules
+
+- Use `haiku` model for mechanical subagent tasks (HTML/CSS edits, simple spec checks)
+- Use `sonnet` only for content-heavy tasks (all 10 day cards) or final code reviews
+- Skip code quality review for pure HTML/CSS tasks with no logic
+- When reading large files, use `offset` + `limit` — never read the full file if only one section is needed
+- Spec reviewers should grep for specific strings rather than reading the whole file when possible
+- Skip the visual companion server for future iterations — use terminal descriptions instead
+
 ## GitHub Rules
 
 - **Never merge to `main` directly** — always create a Pull Request
