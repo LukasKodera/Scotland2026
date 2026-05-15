@@ -57,7 +57,7 @@
 
 ## Day 6 — Friday, 19 June 2026
 
-**Travel:** Portree area local  
+**Travel:** Portree → [Duntulm Castle](https://maps.app.goo.gl/rnP5UGgbaWBCgbar9) → Portree  
 **Accommodation:** Portree — TBD  
 **Plan:**
 - Duntulm Castle
@@ -67,34 +67,25 @@
 
 ## Day 7 — Saturday, 20 June 2026
 
-**Travel:** TBD  
-**Accommodation:** TBD  
-**Plan:**
-- TBD
-
----
-
-## Day 8 — Sunday, 21 June 2026
-
-**Travel:** Portree area local  
+**Travel:** Portree → [Neist Point](https://maps.app.goo.gl/4gf7GC8UFda5xxzW9) → Portree  
 **Accommodation:** Portree — TBD  
 **Plan:**
 - Neist Point
 
 ---
 
-## Day 9 — Monday, 22 June 2026
+## Day 8 — Sunday, 21 June 2026
 
-**Travel:** Portree area local  
+**Travel:** Portree → [Old Man of Storr](https://maps.app.goo.gl/rsTvoHRTrqzuXYZ58) → Portree  
 **Accommodation:** Portree — TBD  
 **Plan:**
 - Old Man of Storr
 
 ---
 
-## Day 10 — Tuesday, 23 June 2026
+## Day 9 — Monday, 22 June 2026
 
-**Travel:** Portree area local  
+**Travel:** [Portree area](https://maps.app.goo.gl/TpBfFCgsCPE8uLH37)  
 **Accommodation:** Portree — TBD  
 **Plan:**
 - Portree
@@ -102,58 +93,73 @@
 
 ---
 
-## Day 11 — Wednesday, 24 June 2026
+## Day 10 — Tuesday, 23 June 2026
 
-**Travel:** Portree → Inverness  
+**Travel:** [Portree → Inverness](https://maps.app.goo.gl/HVszwWxHdkpMYXhX8)  
 **Accommodation:** Inverness — TBD  
 **Plan:**
 - Eilean Donan Castle
+- Plockton?
+
+---
+
+## Day 11 — Wednesday, 24 June 2026
+
+**Travel:** TBD  
+**Accommodation:** TBD  
+**Plan:**
+- Loch Ness
+- Dillyminnen
+- Cullykhan Beach?
+- Ullapool?
 
 ---
 
 ## Day 12 — Thursday, 25 June 2026
 
-**Travel:** Inverness → Cullykhan Beach  
-**Accommodation:** TBD  
+**Travel:** Inverness → Insh  
+**Accommodation:** Insh area — TBD  
 **Plan:**
-- Cullykhan Beach
+- Loch Insh
+- Cairngorms National Park
 
 ---
 
 ## Day 13 — Friday, 26 June 2026
 
-**Travel:** Cullykhan → Scotstown Beach  
+**Travel:** TBD  
 **Accommodation:** TBD  
 **Plan:**
-- Cullykhan Beach
-- Scotstown Beach
+- Cairngorms National Park
 
 ---
 
 ## Day 14 — Saturday, 27 June 2026
 
-**Travel:** Scotstown Beach → Glenmore Forest Park  
-**Accommodation:** Glenmore Forest Park area — TBD  
+**Travel:** TBD  
+**Accommodation:** TBD  
 **Plan:**
-- Glenmore Forest Park
+- Cairngorms National Park
 
 ---
 
 ## Day 15 — Sunday, 28 June 2026
 
-**Travel:** TBD  
-**Accommodation:** TBD  
+**Travel:** Insh → Dunnottar Castle  
+**Accommodation:** Montrose — TBD  
 **Plan:**
-- TBD
+- Dunnottar Castle
+- St Cyrus Beach
 
 ---
 
 ## Day 16 — Monday, 29 June 2026
 
-**Travel:** Glenmore Forest Park → St Andrews  
+**Travel:** Montrose → St Andrews  
 **Accommodation:** St Andrews — TBD  
 **Plan:**
 - Loch Lomond
+
 
 ---
 
